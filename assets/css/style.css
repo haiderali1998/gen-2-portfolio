@@ -1,0 +1,153 @@
+:root {
+  background-color: #0dd4ee;
+}
+
+body {
+  position: sticky;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: whitesmoke;
+  justify-content: space-between;
+}
+
+header {
+  padding: 20px 35px;
+  position: static;
+  background-color: #1084f0;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  justify-content: space-between;
+  
+
+}
+
+#mainPage {
+  padding-top: 3cm;
+}
+
+#mainPicture {
+  border: 3px #097bec solid;
+  box-shadow: 5px black ;
+}
+
+
+nav ul {
+  display: flex;
+}
+
+.page {
+  height: 15vh;
+  text-align: center;
+}
+
+#my_bio {
+  padding-top: 30px;
+}
+
+
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 30px;
+  color: var(--primary-color);
+  text-decoration: none;
+  border-bottom: 2px solid;
+  padding-bottom: 2px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-style: obliquq;
+  font-weight: 100;
+}
+
+
+li {
+  display: inline;
+  padding: 0px 20px;
+  text-decoration: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif color: white;
+  font-size: medium;
+}
+
+
+.myimage {
+  position: relative;
+  top: 10px;
+  right: 0px;
+  border: 5px #097bec solid;
+  height: 150px;
+  width: 150px;
+
+}
+
+#myName {
+  position: relative;
+  bottom: 30px;
+  font-style: italic;
+  font-size: 50px;
+  text-decoration: underline;
+
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    background: #4a0dd8;
+    font-size: 30px;
+  }
+
+  .myimage {
+    max-width: 100%;
+    max-height: 100%;
+    flex-wrap: wrap;
+  }
+
+  .job-description {
+    background: #4a0dd8;
+    font-size: 30px;
+    width: fit-content;
+    justify-content: left;
+    flex-direction: column-reverse;
+  }
+
+  body {
+    background: #4d8f94;
+    font-size: 30px;
+
+    #contactInfo {
+      margin-top: 15px;
+      padding-top: 30px
+
+    }
+  }
+
+}
+
+
+
+@media screen and (max-width: 750px) {
+  header {
+    background: #4a0dd8;
+    font-size: 30px;
+    flex-direction: column;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  #myName {
+    display: block;
+  }
+  #contactIndo {
+    padding-top: 30cm;
+  }
+}
+
+#imageTwo {
+padding-left: 3cm;
+padding-right: 3cm;
+border: #4a0dd8 solid;
+
+}
+
+#contactInfo {
+padding-top: 15cm;
+
+
+}
